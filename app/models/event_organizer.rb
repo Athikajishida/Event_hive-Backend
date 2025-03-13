@@ -1,0 +1,2 @@
+class EventOrganizer < ApplicationRecord
+end

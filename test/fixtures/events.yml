@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  venue: MyString
+  start_date: 2025-03-13 13:24:12
+  end_date: 2025-03-13 13:24:12
+  capacity: 1
+  event_organizer: one
+
+two:
+  title: MyString
+  description: MyText
+  venue: MyString
+  start_date: 2025-03-13 13:24:12
+  end_date: 2025-03-13 13:24:12
+  capacity: 1
+  event_organizer: two
