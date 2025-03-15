@@ -1,24 +1,42 @@
-# README
+# Event Hive - Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+Event Hive is a backend system for an Event Booking System that supports two user roles:  
+- **Event Organizers**: Can create, read, update, and manage events.  
+- **Customers**: Can book tickets for events.  
 
-* Ruby version
+The API is built using **Ruby on Rails 8**, with **Sidekiq** for background jobs and **Redis** for job queue management.
 
-* System dependencies
+## Features
 
-* Configuration
+- **User Authentication & Role-based Access Control**
+- **Event Management (CRUD)**
+- **Ticket Booking System**
+- **Asynchronous Email Notifications using Sidekiq**
+- **RESTful API Endpoints**
+- **PostgreSQL Database**
 
-* Database creation
+## Tech Stack
 
-* Database initialization
+- **Backend:** Ruby on Rails 8 (Ruby 3.2.2)
+- **Database:** PostgreSQL
+- **Background Jobs:** Sidekiq + Redis
+- **Authentication:** bcrypt & JWT
 
-* How to run the test suite
+## Setup Instructions
 
-* Services (job queues, cache servers, search engines, etc.)
+### Prerequisites
 
-* Deployment instructions
+Make sure you have installed:  
+- Ruby 3.2.2  
+- Rails 8+  
+- PostgreSQL  
+- Redis  
 
-* ...
+### Installation Steps
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/Athikajishida/Event_hive-Backend.git
+   cd Event_hive-Backend
