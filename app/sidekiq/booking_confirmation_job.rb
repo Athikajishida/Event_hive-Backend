@@ -7,8 +7,6 @@ class BookingConfirmationJob
 
     customer = booking.customer
     event = booking.booking_details.first.ticket.event
-
-    # In a real app, you would send an email here
     puts "SENDING EMAIL: Booking confirmation for #{customer.name}"
     puts "Event: #{event.title}"
     puts "Total tickets: #{booking.booking_details.sum(:quantity)}"
