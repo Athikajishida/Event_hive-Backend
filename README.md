@@ -40,3 +40,24 @@ Make sure you have installed:
    ```sh
    git clone https://github.com/Athikajishida/Event_hive-Backend.git
    cd Event_hive-Backend
+2. **Install Dependencies**
+   ```sh
+   bundle install
+
+3. **Set up Database**
+   ```sh
+   rails db:create db:migrate db:seed
+4. **Run Redis (Required for Sidekiq)**
+   ```sh
+   redis-server
+5. **Start the Sidekiq Worker**
+   ```sh
+   bundle exec sidekiq
+
+6. **Start the Rails Server**
+   ```sh
+   rails s
+
+
+
+
